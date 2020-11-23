@@ -1,0 +1,6 @@
+/home/lxy/SLAM/VIO/VINS-Course-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lxy/SLAM/VIO/VINS-Course-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lxy/SLAM/VIO/VINS-Course-master/cmake-build-debug/CMakeFiles/SystemTest.dir
+/home/lxy/SLAM/VIO/VINS-Course-master/cmake-build-debug/CMakeFiles/camera_model.dir
+/home/lxy/SLAM/VIO/VINS-Course-master/cmake-build-debug/CMakeFiles/run_KITTI.dir
+/home/lxy/SLAM/VIO/VINS-Course-master/cmake-build-debug/CMakeFiles/MyVio.dir

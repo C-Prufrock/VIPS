@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="vins_estimator" targetName="run_KITTI" />
+      <config projectName="vins_estimator" targetName="MyVio" />
+      <config projectName="vins_estimator" targetName="camera_model" />
+      <config projectName="vins_estimator" targetName="SystemTest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a360bd63-5ab7-4466-be48-f8a241be84f5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno-return-type" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/run_KITTI.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/System.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="383" column="49" selection-start-line="383" selection-start-column="49" selection-end-line="383" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#138#917#0" />
+                <element signature="e#919#1489#0" />
+                <element signature="e#1491#11236#0" />
+                <element signature="e#11238#11470#0" />
+                <element signature="e#30217#32081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/feature_tracker.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/feature_tracker.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="486" column="40" lean-forward="true" selection-start-line="486" selection-start-column="40" selection-end-line="486" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#1320#2104#0" />
+                <element signature="e#2106#2564#0" />
+                <element signature="e#2604#3635#0" />
+                <element signature="e#3636#3835#0" />
+                <element signature="e#3836#4307#0" />
+                <element signature="e#4309#4633#0" />
+                <element signature="e#4636#8434#0" />
+                <element signature="e#8436#14211#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/MSG.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/System.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InstanceSeg.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+              <folding>
+                <element signature="e#49#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Conversion.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+              <folding>
+                <element signature="e#390#1329#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>td</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/backend/problem.cc" />
+        <option value="$PROJECT_DIR$/src/SystemOriginal.cpp" />
+        <option value="$PROJECT_DIR$/src/SystemKITTI.cpp" />
+        <option value="$PROJECT_DIR$/config/BlendMaskSettings.yaml" />
+        <option value="$PROJECT_DIR$/test/ImgtypeTest.cpp" />
+        <option value="$PROJECT_DIR$/src/SystemFirstDiffTrack.cpp" />
+        <option value="$PROJECT_DIR$/include/parameters.h" />
+        <option value="$PROJECT_DIR$/src/parameters.cpp" />
+        <option value="$PROJECT_DIR$/src/feature_tracker_v1.cpp" />
+        <option value="$PROJECT_DIR$/include/MSG.cpp" />
+        <option value="$PROJECT_DIR$/src/initial/initial_ex_rotation.cpp" />
+        <option value="$PROJECT_DIR$/src/MSG.cpp" />
+        <option value="$PROJECT_DIR$/include/camodocal/camera_models/PinholeCamera.h" />
+        <option value="$PROJECT_DIR$/src/camera_models/camera_models/PinholeCamera.cc" />
+        <option value="$PROJECT_DIR$/include/camodocal/camera_models/Camera.h" />
+        <option value="$PROJECT_DIR$/src/camera_models/camera_models/CameraFactory.cc" />
+        <option value="$PROJECT_DIR$/include/Instance_Object.h" />
+        <option value="$PROJECT_DIR$/src/utility/Random.cpp" />
+        <option value="$PROJECT_DIR$/src/utility/Timestamp.cpp" />
+        <option value="$PROJECT_DIR$/include/toolsForModel.h" />
+        <option value="$PROJECT_DIR$/src/toolsForModel.cpp" />
+        <option value="$PROJECT_DIR$/include/feature_manager.h" />
+        <option value="$PROJECT_DIR$/config/KITTI_config-02.yaml" />
+        <option value="$PROJECT_DIR$/src/initial/initial_aligment.cpp" />
+        <option value="$PROJECT_DIR$/test/TestSystemOriginal.cpp" />
+        <option value="$PROJECT_DIR$/config/KITTI-00-unrectified.yaml" />
+        <option value="$PROJECT_DIR$/include/System.h" />
+        <option value="$PROJECT_DIR$/include/factor/integration_base.h" />
+        <option value="$PROJECT_DIR$/include/MSG.h" />
+        <option value="$PROJECT_DIR$/config/0926_imu/timestamps.txt" />
+        <option value="$PROJECT_DIR$/config/image_02/timestamps.txt" />
+        <option value="$PROJECT_DIR$/src/feature_manager.cpp" />
+        <option value="$PROJECT_DIR$/src/initial/initial_sfm.cpp" />
+        <option value="$PROJECT_DIR$/config/0926_imu/data/0000000788.txt" />
+        <option value="$PROJECT_DIR$/src/Pose_for_Objects.cpp" />
+        <option value="$PROJECT_DIR$/include/estimator.h" />
+        <option value="$PROJECT_DIR$/src/initial/solve_5pts.cpp" />
+        <option value="$PROJECT_DIR$/include/Pose_for_Objects.h" />
+        <option value="$PROJECT_DIR$/src/estimator.cpp" />
+        <option value="$PROJECT_DIR$/test/CpInsSegTest.cpp" />
+        <option value="$PROJECT_DIR$/include/InstanceSeg.h" />
+        <option value="$PROJECT_DIR$/include/Conversion.h" />
+        <option value="$PROJECT_DIR$/src/InstanceSeg.cpp" />
+        <option value="$PROJECT_DIR$/test/InTest.cpp" />
+        <option value="$PROJECT_DIR$/AdelaiDet/demo/BlendMask.py" />
+        <option value="$PROJECT_DIR$/src/Conversion.cc" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/feature_tracker.h" />
+        <option value="$PROJECT_DIR$/src/feature_tracker.cpp" />
+        <option value="$PROJECT_DIR$/src/System.cpp" />
+        <option value="$PROJECT_DIR$/test/run_KITTI.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1657" />
+    <option name="height" value="949" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="AdelaiDet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="AdelaiDet" type="462c0819:PsiDirectoryNode" />
+              <item name="adet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="AdelaiDet" type="462c0819:PsiDirectoryNode" />
+              <item name="adet" type="462c0819:PsiDirectoryNode" />
+              <item name="modeling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="AdelaiDet" type="462c0819:PsiDirectoryNode" />
+              <item name="adet" type="462c0819:PsiDirectoryNode" />
+              <item name="modeling" type="462c0819:PsiDirectoryNode" />
+              <item name="blendmask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="AdelaiDet" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vins_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VINS-Course-master" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/CpTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/include/utility" />
+      <recent name="$PROJECT_DIR$/src/utility" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/0926_imu_51" />
+      <recent name="$PROJECT_DIR$/config/" />
+      <recent name="$PROJECT_DIR$/src/utility" />
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.run_KITTI">
+    <configuration name="MyVio" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="MyVio" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="SystemTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="vins_estimator" RUN_TARGET_NAME="SystemTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="camera_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="camera_model" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_KITTI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vins_estimator" TARGET_NAME="run_KITTI" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="vins_estimator" RUN_TARGET_NAME="run_KITTI">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.MyVio" />
+      <item itemvalue="CMake Application.SystemTest" />
+      <item itemvalue="CMake Application.camera_model" />
+      <item itemvalue="CMake Application.run_KITTI" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a360bd63-5ab7-4466-be48-f8a241be84f5" name="Default Changelist" comment="" />
+      <created>1596543304086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596543304086</updated>
+      <workItem from="1596543305315" duration="126000" />
+      <workItem from="1596550785145" duration="246000" />
+      <workItem from="1596595551620" duration="1166000" />
+      <workItem from="1596777487780" duration="598000" />
+      <workItem from="1596805942414" duration="8697000" />
+      <workItem from="1597999045728" duration="92000" />
+      <workItem from="1597999375880" duration="11107000" />
+      <workItem from="1598145577962" duration="15400000" />
+      <workItem from="1598185798005" duration="6773000" />
+      <workItem from="1598231267915" duration="24203000" />
+      <workItem from="1598406862314" duration="23612000" />
+      <workItem from="1598494109702" duration="240000" />
+      <workItem from="1598494918384" duration="13945000" />
+      <workItem from="1598582908037" duration="597000" />
+      <workItem from="1598764565621" duration="21793000" />
+      <workItem from="1599029394645" duration="54203000" />
+      <workItem from="1599272952974" duration="599000" />
+      <workItem from="1599274256097" duration="9596000" />
+      <workItem from="1599443104752" duration="13129000" />
+      <workItem from="1599538569937" duration="40115000" />
+      <workItem from="1599649763286" duration="3847000" />
+      <workItem from="1599705014666" duration="1181000" />
+      <workItem from="1599707590698" duration="3897000" />
+      <workItem from="1599904742320" duration="8926000" />
+      <workItem from="1599967109738" duration="62782000" />
+      <workItem from="1600311722543" duration="20570000" />
+      <workItem from="1600493385965" duration="13926000" />
+      <workItem from="1600656349106" duration="2083000" />
+      <workItem from="1600750427609" duration="12560000" />
+      <workItem from="1600826415270" duration="812000" />
+      <workItem from="1601002412492" duration="5917000" />
+      <workItem from="1601030014875" duration="3387000" />
+      <workItem from="1601087822822" duration="8407000" />
+      <workItem from="1601115048723" duration="5072000" />
+      <workItem from="1601178275757" duration="21588000" />
+      <workItem from="1601349287579" duration="28649000" />
+      <workItem from="1601607928659" duration="1827000" />
+      <workItem from="1601609772522" duration="23542000" />
+      <workItem from="1601819940542" duration="1130000" />
+      <workItem from="1601821620300" duration="54634000" />
+      <workItem from="1602163285827" duration="4446000" />
+      <workItem from="1602230074966" duration="9717000" />
+      <workItem from="1602243719111" duration="2351000" />
+      <workItem from="1602252635155" duration="207000" />
+      <workItem from="1602254573580" duration="366000" />
+      <workItem from="1602302587523" duration="4674000" />
+      <workItem from="1602384435717" duration="7232000" />
+      <workItem from="1602479551872" duration="5125000" />
+      <workItem from="1602487118780" duration="17646000" />
+      <workItem from="1602644494864" duration="52850000" />
+      <workItem from="1602990040589" duration="10835000" />
+      <workItem from="1603013298464" duration="5036000" />
+      <workItem from="1603070465692" duration="10647000" />
+      <workItem from="1603158689499" duration="9529000" />
+      <workItem from="1603171158640" duration="25971000" />
+      <workItem from="1603345098677" duration="4868000" />
+      <workItem from="1603424374294" duration="8899000" />
+      <workItem from="1603447216081" duration="6663000" />
+      <workItem from="1603609962730" duration="3575000" />
+      <workItem from="1603681827337" duration="21427000" />
+      <workItem from="1603848454517" duration="9321000" />
+      <workItem from="1603987175998" duration="366000" />
+      <workItem from="1604027706380" duration="8323000" />
+      <workItem from="1604065406589" duration="3846000" />
+      <workItem from="1604200708406" duration="8551000" />
+      <workItem from="1604373926924" duration="4120000" />
+      <workItem from="1604393867827" duration="3010000" />
+      <workItem from="1604409852823" duration="9765000" />
+      <workItem from="1604477795330" duration="45183000" />
+      <workItem from="1604829663175" duration="7362000" />
+      <workItem from="1604891868494" duration="3364000" />
+      <workItem from="1604897321271" duration="84668000" />
+      <workItem from="1605345828179" duration="28833000" />
+      <workItem from="1605578556631" duration="26650000" />
+      <workItem from="1605803995089" duration="4917000" />
+      <workItem from="1606015744258" duration="18039000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1009356000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20233463" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26717559" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.478735" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40239912" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32715377" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.35877863" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32962757" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20233463" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40458015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.478735" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40239912" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32715377" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.391494" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32962757" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/dataformat.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/data/0000000071.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/data/0000000072.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/data/0000000073.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="311" selection-start-column="311" selection-end-column="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parameters.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/data/0000000074.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/image_02/data/0000000005.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Instance_Object.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Instance_Object.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/eigen.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/image_02/timestamps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="72" column="29" lean-forward="true" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/data/0000000788.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0926_imu/timestamps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="787" column="29" lean-forward="true" selection-start-line="787" selection-start-column="29" selection-end-line="787" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/calib3d.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="1529" column="20" lean-forward="true" selection-start-line="1529" selection-start-column="20" selection-end-line="1529" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pose_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="193" column="56" selection-start-line="193" selection-start-column="56" selection-end-line="193" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/estimator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/initial/initial_sfm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Pose_for_Objects.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pose_for_Objects.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/backend/loss_function.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1605">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/backend/vertex_pose.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/feature_manager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/backend/problem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/vertex_pose.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/vertex.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/backend/vertex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/problem.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="631" column="46" selection-start-line="631" selection-start-column="46" selection-end-line="631" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/parameters.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/initial/solve_5pts.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature_manager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#49#136#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estimator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="1083" column="26" selection-start-line="1083" selection-start-column="26" selection-end-line="1083" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#15269#21545#0" />
+            <element signature="e#21547#23890#0" />
+            <element signature="e#23892#25584#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CpInsSegTestOriginal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ImgtypeTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdelaiDet/demo/GetInstanceSeg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CpInsSegTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="77" column="67" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/InstanceSeg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/InTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Conversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdelaiDet/demo/BlendMask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="188" column="29" selection-start-line="188" selection-start-column="29" selection-end-line="188" selection-end-column="29" />
+          <folding>
+            <element signature="e#72#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstanceSeg.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <folding>
+            <element signature="e#49#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conversion.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#390#1329#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/MSG.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/feature_tracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/run_KITTI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="383" column="49" selection-start-line="383" selection-start-column="49" selection-end-line="383" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#138#917#0" />
+            <element signature="e#919#1489#0" />
+            <element signature="e#1491#11236#0" />
+            <element signature="e#11238#11470#0" />
+            <element signature="e#30217#32081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature_tracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="486" column="40" lean-forward="true" selection-start-line="486" selection-start-column="40" selection-end-line="486" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1320#2104#0" />
+            <element signature="e#2106#2564#0" />
+            <element signature="e#2604#3635#0" />
+            <element signature="e#3636#3835#0" />
+            <element signature="e#3836#4307#0" />
+            <element signature="e#4309#4633#0" />
+            <element signature="e#4636#8434#0" />
+            <element signature="e#8436#14211#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

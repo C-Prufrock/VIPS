@@ -1,0 +1,6 @@
+%YAML:1.0
+py_path: /home/lxy/SLAM/VIO/VINS-Course-master/AdelaiDet/demo/
+module_name: "BlendMask"
+class_name: "Blendmask"
+get_dyn_seg: "GetDynSeg"
+get_Ins_seg: "GetInsSeg"
