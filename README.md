@@ -71,3 +71,4 @@ For commercial inquiries, please contact Song Zhao <zhaosong@shenlanxueyuan.com>
 
 我们使用了港科大沈老师组的 [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) 作为基础代码，非常感谢该组的工作。
 
+# VIPS
